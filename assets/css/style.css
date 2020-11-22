@@ -478,3 +478,14 @@ img{
           box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
       }
     }    
+
+    
+@viewport {
+  zoom: 1.0;
+  width: fit-content;
+  }
+
+ @-ms-viewport {
+   width: fit-content;
+   zoom: 1.0;
+ } 
