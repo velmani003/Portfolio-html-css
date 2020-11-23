@@ -341,6 +341,7 @@ img{
 .about__text {
   margin-bottom: var(--mb-4);
   margin-top: var(--mb-3);
+
   align-content: center;
 }
 .about-title{
@@ -362,6 +363,7 @@ img{
   top: 2rem;
   background-color: var(--first-color);
 }
+
 /* ===== SKILLS =====*/
 .skills__subtitle{
   margin-left: var(--mb-5);
@@ -450,6 +452,13 @@ img{
     align-items: center;
     text-align: initial;
   }
+  img{
+    transition: 1s;
+    cursor: pointer;
+  }
+  img img:hover{
+    transform: scale(1.1);
+  }
   
   .work{
     grid-template-columns: repeat(3, 1fr);
@@ -464,6 +473,7 @@ img{
     justify-content: center;
     margin-right: auto;
   }
+  
 
   .sibi {
     width: 400px;
