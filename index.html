@@ -31,6 +31,7 @@ integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZD
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#abt" class="nav__link active">About Me</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">Research Grant</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Research projects</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Publications</a></li>
@@ -50,12 +51,19 @@ integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZD
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
+                    <div class="home__img">    
+                        <img src="assets/img/sibi_ford.jpg" class="sibi" alt="">
+                    </div>
                     <h1 class="home__title">Sibi Chakkaravarthy</h1>
-                     <p>Ph.D<br> from Anna University<br>
+               
+                     <p class="home__p">Ph.D<br> from Anna University<br>
 currently working as Associate Professor at Vellore Institute of Technology - Andhra Pradesh (VIT-AP) University , Amaravati, India.
                         </p><br><br>
-                    <div class="profile" style="display: block;">
-                          <p>Sibi Chakkaravarthy Sethuraman received his Ph.D from Anna University in the year 2018 and he is currently 
+                    </section>
+                    <section class="about section" id="abt">
+                        <h2 class="section-title">About Me</h2><br>
+                    <div class="profile skills__text">
+                          <p> Sibi Chakkaravarthy Sethuraman received his Ph.D from Anna University in the year 2018 and he is currently 
                               working as an Associate Professor in the School of Computer Science and Engineering at Vellore Institute of 
                               Technology – Andhra Pradesh (VIT-AP) University since September 2018. He was an Assistant Professor in the 
                               Department of Computer Science and Engineering at VIT-AP from May 2018 to September 2018. He is a visiting 
@@ -68,10 +76,9 @@ currently working as Associate Professor at Vellore Institute of Technology - An
                               Natural Intelligence (IJCINI), IGI Global publisher. He is a recipient of DST fellowship.</p>
                     </div> <br><br>
                 </div>
-                <div class="home__img">    
-                    <img src="assets/img/sibi_ford.jpg" alt="">
-                </div>
             </section>
+                
+          
 
 
             <section class="about section" id="about">
@@ -79,8 +86,8 @@ currently working as Associate Professor at Vellore Institute of Technology - An
 
                 <div class="about__container bd-grid">
                     <div>
-                        <h2 class="about__subtitle">GPU accelerated security system</h2>
-                        <p class="about__text"><br>Funding agency	: 	NVIDIA<br>
+                        <h3 class="about__subtitle">GPU accelerated security system</h3>
+                        <p class="skills__text"><br>Funding agency	: 	NVIDIA<br>
                             Grant in INR	: 	1.7L<br>
                             Duration 		: 	01.07.2018 - 01.07.2019<br><br>
                      
@@ -89,29 +96,26 @@ currently working as Associate Professor at Vellore Institute of Technology - An
                             Duration 		: 	September 2019<br>   </div>                                   
                 </div>
             </section>
+            <section class="work section" id="skills">
+                <h3 class="section-title">Reserach Projects</h3>	
+                <h2 class="skills__subtitle">Here are some projects I've worked on:</h2>
+                <ol  class="skills__text">
+                    <li>ViSU - A functional Humanoid Robot</li>
+                    <li>Oh Yes (OS) - Operating System for ML and DL research</li>
+                    <li>TARS - The Autonomous Rapsody Spider - For agriculture surveillance</li>
+                    <li>Remote Health Monitoring System [Award Winner - Hackathon]</li>
+                    <li>Automatic Leaf Vein Feature Extraction</li>
+                    <li>Face spoof attack detection</li>
+                    <li>Automatic Phishing detection using machine learning techniques</li>
+                    <li>Trajectory based Abnormal Event Detection in Video Traffic Surveillance</li>
+                    <li>Intrusion Detection Honeypot</li>
+                    <li>CEP based Hybrid Intrusion Detection System</li>
+                    <li>Blackspace - a sophisticated malware</li>
+                </ol>
+            </div>
+            <br>
 
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Reserach projects</h2>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Here are some projects I've worked on:</h2>
-                        <p class="skills__text">
-                            1.ViSU - A functional Humanoid Robot<br>
-                            2.Oh Yes (OS) - Operating System for ML and DL research<br>
-                            3.TARS - The Autonomous Rapsody Spider - For agriculture surveillance<br>
-                            4.Remote Health Monitoring System [Award Winner - Hackathon]<br>
-                            5.Automatic Leaf Vein Feature Extraction<br>
-                            6.Face spoof attack detection<br>
-                            7.Automatic Phishing detection using machine learning techniques<br>
-                            8.Trajectory based Abnormal Event Detection in Video Traffic Surveillance<br>
-                            9.Intrusion Detection Honeypot<br>
-                            10.CEP based Hybrid Intrusion Detection System<br>
-                            11.Blackspace - a sophisticated malware<br>
-                                      
-                    </div>
-                </div>
-            </section>
 
             <section class="work section" id="work">
                 <h3 class="section-title">Publications</h3>	
@@ -232,7 +236,7 @@ currently working as Associate Professor at Vellore Institute of Technology - An
             <br><br>
     
             <div id="edit">
-                <h1 class="section-title">Editorship</h2>
+                <h1 class="section-title">Editorship</h2><br>
                 <ol class="skills__text">
                     <li><font style="-webkit-text-stroke: 0.5px red !important;">Associate Editor</font>, International Journal of Cognitive Informatics and Natural Intelligence (IJCINI), IGI Global Publisher. </li>
                 </ol>
@@ -241,12 +245,12 @@ currently working as Associate Professor at Vellore Institute of Technology - An
    
             <section class="contact section" id="contact">
                 <div id="contact">
-                    <h2 class="section-title">Contact Me</h2>
+                    <h2 class="section-title">Contact Me</h2><br>
                     <p class="skills__text">Interested in knowing more? Check out 
                         <a href="res/sibi_resume.pdf" id="resume-link" target="_">my resume!</a></p>
                     <p class="skills__text">Google Scholar Profile
                          <a href="https://scholar.google.co.in/citations?user=8pKeh40AAAAJ&amp;hl=en" id="resume-link" target="_">Click here</a></p>
-                    <p>Interested in connecting?</p>
+                    <p class="skills__text">Interested in connecting?</p>
                     <ul class="contact-icons">
                         <li class="contact-img"><a href="https://in.linkedin.com/in/sibi-chakkaravarthy-sethuraman-7aba651a" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
                         <li class="contact-img"><a href="https://github.com/sibichakkaravarthy" target="_blank"><i class='bx bxl-github'></i></a></li>
