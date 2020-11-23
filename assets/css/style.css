@@ -170,6 +170,12 @@ ul{
 a{
   text-decoration: none;
 }
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /*===== CLASS CSS ===== */
 .section-title{
   position: relative;
@@ -446,7 +452,13 @@ a{
     align-items: center;
     text-align: initial;
   }
-  
+  img{
+    transition: 1s;
+    cursor: pointer;
+  }
+  img img:hover{
+    transform: scale(1.1);
+  }
   
   .work{
     grid-template-columns: repeat(3, 1fr);
@@ -499,7 +511,7 @@ a{
         margin-left: auto;
         margin-bottom: auto;
     }
-        
+
 @viewport {
   zoom: 1.0;
   width: extend-to-zoom;
